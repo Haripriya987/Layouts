@@ -1,0 +1,97 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    margin:10px 30px;
+
+}
+.one{
+background-color: gray;
+height:100px;
+display:flex;
+flex-direction: row;
+margin-bottom: 10px;
+}
+.first1{
+padding-right: 60%;
+padding-top: 20px;
+padding-left: 20px;
+}
+.second1{
+    padding-top: 22px;
+    padding-left: 20px;
+
+}
+.two{
+    background-color: gray;
+height:100px;
+text-align: center;
+padding-top: 30px;
+margin-bottom: 10px;
+}
+.three{
+    background-color: gray;
+    height:100px;
+    margin-bottom: 10px;
+    padding-top: 30px;
+    text-align: center;
+}
+.four{
+height:270px;
+display:flex;
+flex-direction: row;
+margin-bottom: 10px;
+}
+.sub1{
+width:33%;
+margin-right:20px;
+background-color: gray;
+padding-top: 110px;
+text-align: center;
+
+}
+.sub2{
+width:33%;
+margin-right:20px;
+padding-top: 110px;
+text-align: center;
+background-color: gray;
+
+}
+.sub3{
+    padding-top: 110px;
+    text-align: center;
+    background-color: gray;
+    width:35%;
+
+}
+.five{
+    background-color: gray;
+height:80px;
+text-align: center;
+padding-left: 10px;
+padding-top: 20px;
+}
+
+@media (max-width:800px) {
+    .main{
+    margin: 10px 15px;
+
+    }
+    .first1{
+        padding-right: 40%;
+     }
+}
+@media (max-width:600px) {
+    .main{
+    margin: 5px 15px;
+
+    }
+ .first1{
+    padding-right: 30%;
+ }   
+}
